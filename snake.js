@@ -30,7 +30,7 @@ export function expandSnake(amount) {
     newSegments += amount
 }
 
-exprot function onSnake(position) {
+export function onSnake(position) {
     return snakeBody.some(segment => {
         return equalPositions(segment, position)
     })
