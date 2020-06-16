@@ -1,4 +1,5 @@
-const GRID_SIZE = 21
+const GRID_SIZE = 25
+
 
 export function randomGridPosition() {
     return {
@@ -7,6 +8,7 @@ export function randomGridPosition() {
 
     }
 }
+
 
 export function outsideGrid(position) {
     return (
