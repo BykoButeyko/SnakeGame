@@ -10,8 +10,8 @@ export function update() {
         snakeBody[i + 1] = { ...snakeBody[i] }
     }
 
-    snakeBody[0].x += 1
-    snakeBody[0].y += 0
+    snakeBody[0].x += 0
+    snakeBody[0].y += 1
 }
 
 export function draw(gameBoard) {
