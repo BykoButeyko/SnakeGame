@@ -8,7 +8,7 @@ function gameSpeed (currentTime){
     
     
     lastRenderTime = currentTime
-    console.log(secondsSinceLastRender)
+    console.log('Render')
 }
 
 
